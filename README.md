@@ -17,26 +17,21 @@ The program:
 ## Compilation
 
 ```bash
-gcc -o dirlist main.c
-```
-
-Or with warnings enabled (recommended):
-```bash
-gcc -Wall -Wextra -o dirlist main.c
+gcc lis.c -o lis
 ```
 
 ## Usage
 
 ```bash
-./dirlist
+./lis
 ```
 
 **Output example:**
 ```
 .               4096 bytes
 ..              4096 bytes
-main.c          523 bytes
-dirlist         16384 bytes
+lis.c           523 bytes
+lis.exe         16384 bytes
 README.md       1247 bytes
 ```
 
